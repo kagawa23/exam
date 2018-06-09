@@ -38,7 +38,6 @@
 </template>
 
 <script>
-//   import MainLayout from '../layouts/Main.vue'
   import Utils from '../util';
 const  utils= new Utils;
   const QUIZ = [{"question":"星云链众筹时间?","answers":["A.2015年","B.2016年","C.2017年","D.2018年"],"type":"语文"},{"question":"NAS的总发行量","answers":["A.1亿","B.1千万","C.2百万","D.3千万"],"type":"数学"},{"question":"下列哪个选项星云的正确英文拼写","answers":["A.xingyun","B.nebulas","C.newbalance","D.galaxy"],"type":"英语"}];
@@ -64,8 +63,7 @@ const  utils= new Utils;
         const score = Number.parseFloat(counter/3).toFixed(2);
         const resp =  await utils.post("save",[score]);
         console.log(resp);
-        // 
-        window.location = "./thirdPage"
+       this.$router.push('./cert');
       }
     }
   }

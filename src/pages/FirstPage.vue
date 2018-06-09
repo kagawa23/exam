@@ -15,7 +15,6 @@
 </template>
 
 <script>
-//   import MainLayout from '../layouts/Main.vue'
 import Utils from '../util';
 const  utils= new Utils;
   export default {
@@ -23,7 +22,8 @@ const  utils= new Utils;
       participate:async function(){
           var resp = await utils.post("participate", []);
           // console.log(resp);
-           window.location = "./secondPage";
+          // window.location = "./secondPage";
+          this.$router.push('/exam')
       }
     }
   }

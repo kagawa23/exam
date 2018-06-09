@@ -3,7 +3,7 @@ const nebPay = new Nebpay();
 
 export default class Utils {
     constructor(){
-        this.dappAddress = 'n21GgoSLHBRuhdBVd2eHRk65FYzZ3kBVh4k';
+        this.dappAddress = 'n1r86LknnyRZtmzcQgr5DiqybzLbFiGeiDV';
     }
     async get(callFunction,args){
         return new Promise((resolve,rej) => {
