@@ -1,0 +1,70 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+ body {
+    background: #f5f5f5;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    #firstPage {
+      text-align: center;
+      div#blackboard {
+        background-color: #425a5a;
+        border: 25px solid #523620;
+        border-radius: 20px;
+        padding: 40px 20px;
+        margin: 2em;
+        height: auto;
+        color: #fff;
+        font-family: "Arial";
+        // font-size: 2em;
+        font-size: 16px;
+        text-align: center;
+        #repeat {
+          font-size: 2.4em;
+          margin: 0 10px 10px 0;
+        }
+      }
+  
+      #startBtn {
+        margin: 10px;
+      }
+    }
+    #secondPage {
+      & h1, h2 {
+        text-align: center;
+      }
+      box-shadow: 5px 10px 8px #888888;
+      border: 1px solid;
+      padding:20px 0px;
+      #question {
+        margin:10px;
+        text-align:left;
+      }
+      .radio {
+        margin-left:10px;
+      }
+    }
+    #thirdPage{
+      .title {
+        text-align:center;
+      }
+      .content {
+        margin:20px 0px;
+      }
+      .end {
+        text-align:right;
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    body {
+      #firstPage {
+        div#blackboard {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  
