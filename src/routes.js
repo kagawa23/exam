@@ -1,5 +1,5 @@
 export default {
-  '/exam':'FirstPage',
+  '/exam/':'FirstPage',
   '/exam/secondPage':'SecPage',
   '/exam/thirdPage':'ThirdPage'
 }

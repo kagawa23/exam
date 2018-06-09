@@ -5002,7 +5002,7 @@ module.exports = Math.scale || function scale(x, inLow, inHigh, outLow, outHigh)
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({
-  '/exam': 'FirstPage',
+  '/exam/': 'FirstPage',
   '/exam/secondPage': 'SecPage',
   '/exam/thirdPage': 'ThirdPage'
 });
